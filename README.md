@@ -14,7 +14,7 @@ La aplicación está dividida en dos componentes principales:
 |--------|-------------|-------------|
 | **Frontend** | [Next.js 14 + TypeScript](https://nextjs.org/) | Interfaz web para la gestión de productos, órdenes y ventas. |
 | **Backend** | [Django + Django REST Framework](https://www.django-rest-framework.org/) | API que gestiona los productos, órdenes, usuarios y comunicación con microservicios y celean arquitecure |
-| **Microservicio externo** | Node.js (API de WhatsApp) | Servicio independiente que envía notificaciones de ventas por WhatsApp. |
+| **Microservicio externo** | Node.js (watssApp web js) | Servicio independiente que envía notificaciones de ventas por WhatsApp. |
 
 ---
 
@@ -34,26 +34,7 @@ La aplicación está dividida en dos componentes principales:
 
 ---
 
-## 🧱 Estructura del Proyecto
 
-```bash
-.
-├── backend/                # Proyecto Django (API REST)
-│   ├── core_chatbot/       # Aplicación principal (productos, ventas, notificaciones)
-│   ├── requirements.txt    # Dependencias del backend
-│   └── manage.py
-│
-├── frontend/               # Proyecto Next.js
-│   ├── src/
-│   │   ├── app/
-│   │   ├── components/
-│   │   ├── lib/api.ts      # Lógica de consumo de endpoints del backend
-│   │   └── pages/
-│   ├── package.json
-│   └── tsconfig.json
-│
-└── README.md
-```
 
 ---
 
@@ -64,7 +45,7 @@ La aplicación está dividida en dos componentes principales:
 #### 1. Clonar el repositorio
 
 ```bash
-git clone 
+git clone https://github.com/santiago2001-dev/app-tienda-full-stack-next-django.git
 
 #### 2. Crear entorno virtual
 
@@ -113,15 +94,9 @@ cd ../frontend
 npm install
 ```
 
-#### 3. Configurar variables de entorno
 
-Crea un archivo `.env.local` en `frontend/` con el siguiente contenido:
 
-```env
-NEXT_PUBLIC_API_URL=http://localhost:8000/api
-```
-
-#### 4. Ejecutar el entorno de desarrollo
+#### 3. Ejecutar el entorno de desarrollo
 
 ```bash
 npm run dev
