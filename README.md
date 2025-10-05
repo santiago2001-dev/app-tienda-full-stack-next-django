@@ -163,6 +163,4 @@ npm start          # Iniciar servidor
 **Santiago Morales**  
 Desarrollador Full Stack  
 📧 contacto: santiagomoraless2001@gmail.com
-🌐 [LinkedIn](https://linkedin.com/in/tuusuario)
 
----
