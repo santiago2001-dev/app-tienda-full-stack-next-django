@@ -21,7 +21,7 @@ La aplicación está dividida en dos componentes principales:
 ## 🚀 Funcionalidades principales
 
 - 👕 **Gestión de productos**  
-  Crear, listar, editar y eliminar productos con su descripción, precio y cantidad disponible.
+  Crear, listar productos con su descripción, precio y cantidad disponible.
 
 - 🧾 **Órdenes y ventas**  
   Crear órdenes de compra, asociarlas a productos y generar registros automáticos en el historial de ventas.
