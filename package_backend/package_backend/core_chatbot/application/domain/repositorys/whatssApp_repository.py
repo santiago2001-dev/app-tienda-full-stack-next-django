@@ -3,7 +3,7 @@ from core_chatbot.application.infraestructure.whatssap_service.whatssApp_service
 
 class ExternalRepository:
     def __init__(self):
-        self.gateway =   ExternalGateway   ("https://qa.citofonia.devinovate.online")
+        self.gateway =   ExternalGateway   ("http://localhost:3100")
 
     def enviar_datos(self, data):
         endpoint = "/api/wha/send"
